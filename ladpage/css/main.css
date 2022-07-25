@@ -1,9 +1,6 @@
-:root{
-    --bs-body-line-height: 1;
-}
 
 body{
-    background-color: #f2ddb6;
+    background-color: rgb(var(--m-rgb-f1));
 }
 
 section{
@@ -17,7 +14,7 @@ section{
 .m-box{
     min-height: 250px;
     transform: rotate(1.5deg);
-    background-color: #6bb0bf;
+    background-color: rgb(var(--m-rgb-p1));
 }
 
 .m-box > *{
@@ -26,7 +23,7 @@ section{
 
 .m-sec{
     transform: rotate(-1deg);
-    background-color: #d9918b;
+    background-color: rgb(var(--m-rgb-p2));
 }
 
 .m-sec > *{
@@ -34,7 +31,7 @@ section{
 }
 
 .m-sec .m-box{
-    background-color: #d95f5f;
+    background-color: hsl(var(--m-hsl-p2),60%);
 }
 
 .m-video-border{
@@ -43,8 +40,8 @@ section{
 }
 
 .m-main-btn{
-    background-color: #f2ae30;
-    color: #685d73;
+    background-color: hsl(var(--m-hsl-p1),60%);
+    color: hsl(var(--m-hsl-p1),30%);
     width: 50%;
     height: 30%;
 }
@@ -54,9 +51,9 @@ section{
 }
 
 .m-main-btn:hover{
-    background-color: #edd138;
-    border-color: #edd138;
-    color: #685d73;
+    background-color: hsl(var(--m-hsl-p1),70%);
+    border-color: hsl(var(--m-hsl-p1),70%);
+    color: hsl(var(--m-hsl-p1),30%);
     width: 60%;
     height: 40%;
     transition: all 1s ease;
