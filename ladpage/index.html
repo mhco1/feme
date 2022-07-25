@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+
+
+        <section class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-sm-6">
+                    <h1>Title</h1>
+                    <p class="m-0">aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                    <p class="m-0">cccc cccc cccc cccc cccc</p>
+                    <p class="m-0">bbb bbb bbb bbb bbb bbb bbb bbb</p>
+                </div>
+                <div class="d-flex justify-content-center col-md-8 col-sm-6 p-3">
+                    <div class="m-box d-flex flex-column justify-content-center rounded-5 p-3">
+                        <h1>Title</h1>
+                        <p class="m-0">aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                        <p class="m-0">cccc cccc cccc cccc cccc</p>
+                        <p class="m-0">bbb bbb bbb bbb bbb bbb bbb bbb</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="m-sec container p-3">
+            <div class="row align-items-center">
+                <div class="d-flex justify-content-center col-md-8 col-sm-6 p-3">
+                    <div class="m-box d-flex flex-column justify-content-center rounded-5 p-3">
+                        <h1>Title</h1>
+                        <p class="m-0">aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                        <p class="m-0">cccc cccc cccc cccc cccc</p>
+                        <p class="m-0">bbb bbb bbb bbb bbb bbb bbb bbb</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h1>Title</h1>
+                    <p class="m-0">aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                    <p class="m-0">cccc cccc cccc cccc cccc</p>
+                    <p class="m-0">bbb bbb bbb bbb bbb bbb bbb bbb</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container d-flex align-items-center flex-column">
+            <div class="m-3">
+                <h1>Title</h1>
+                <p class="m-0">aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                <p class="m-0">cccc cccc cccc cccc cccc</p>
+                <p class="m-0">bbb bbb bbb bbb bbb bbb bbb bbb</p>
+            </div>
+            <div class="m-video-border">
+                <img class="img rounded-5 p-3 w-100" src="https://www.pcuinc.com/wp-content/uploads/2018/02/Rectangle-1920x1080-Placeholder.png" alt="">
+            </div>
+        </section>
+        
+<!--         <section class="conteiner">
+            <div class="m-main-btn">
+                <svg width="1300" height="300" viewBox="0 0 1300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M120.988 0C113.174 10.4025 106.526 21.7304 101.237 33.79C88.3376 30.6593 74.8626 29 61 29C39.5011 29 18.9343 32.9908 0 40.272V300H1300V0H1183.93C1174.94 4.8087 1166.43 10.4019 1158.5 16.6881C1150.57 10.4019 1142.06 4.8087 1133.07 0H972.929C969.182 2.00455 965.518 4.14542 961.945 6.41599C959.717 7.83193 957.515 9.2983 955.342 10.8135C952.444 7.08194 949.394 3.47434 946.201 0H695.799C690.421 5.85192 685.448 12.0819 680.924 18.6455C678.614 16.7452 676.253 14.9046 673.843 13.1261C667.265 8.27193 660.325 3.88053 653.071 0H492.929C463.715 15.6273 439.599 39.5398 423.72 68.598C418.668 43.2449 407.978 19.9247 393.012 0H120.988Z" fill="#685D73"/>
+                </svg>
+                <svg width="1300" height="288" viewBox="0 0 1300 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M406.079 67.9019C386.033 59.5885 364.053 55 341 55C304.528 55 270.739 66.4852 243.052 86.0361C213.01 59.2666 173.404 43 130 43C77.8499 43 31.1843 66.4821 0 103.45V288H480.929H498.944C506.722 268.517 511 247.258 511 225C511 154.164 467.676 93.4473 406.079 67.9019Z" fill="#CC143E"/>
+                    <path d="M641.071 288H1300V102.275C1268.82 65.9854 1222.6 43 1171 43C1136.38 43 1104.17 53.351 1077.31 71.1273C1046.47 28.0624 996.01 0 939 0C904.11 0 871.675 10.5107 844.688 28.5384C825.564 21.0882 804.76 17 783 17C752.546 17 723.962 25.008 699.239 39.0332C647.743 68.2466 613 123.566 613 187C613 223.92 624.769 258.092 644.761 285.967C643.54 286.659 642.31 287.337 641.071 288Z" fill="#CC143E"/>
+                </svg>
+                <svg width="1300" height="225" viewBox="0 0 1300 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1300 225V87.7089C1281.57 77.6909 1260.45 72 1238 72C1182.45 72 1135.04 106.839 1116.43 155.858C1094.3 138.411 1066.37 128 1036 128C1035.75 128 1035.5 128.001 1035.26 128.002C1028.27 62.7879 973.068 12 906 12C861.936 12 822.993 33.9228 799.482 67.4564C783.622 53.4792 762.801 45 740 45C718.842 45 699.39 52.3006 684.025 64.5202C672.32 42.2152 648.937 27 622 27C597.157 27 575.337 39.941 562.914 59.4496C553.273 55.9239 542.861 54 532 54C509.726 54 489.342 62.0914 473.627 75.4952C453.089 61.91 428.468 54 402 54C346.757 54 299.562 88.4577 280.736 137.053C259.229 121.301 232.701 112 204 112C172.17 112 143.013 123.439 120.413 142.431C120.802 138.339 121 134.193 121 130C121 61.2282 67.5986 4.929 0 0.306641V225H1300Z" fill="#8C233F"/>
+                </svg>
+                <svg width="1300" height="198" viewBox="0 0 1300 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M132.55 143.192C130.652 143.516 134.393 142.719 132.55 143.192Z" fill="#FF7C63"/>
+                    <path d="M409.233 198C400.075 186.426 385.905 179 370 179C357.947 179 346.889 183.265 338.255 190.368C327.259 183.179 314.118 179 300 179C299.463 179 298.927 179.006 298.393 179.018C291.533 147.557 263.518 124 230 124C225.513 124 221.124 124.422 216.872 125.229C207.731 115.254 194.596 109 180 109C157.91 109 139.166 123.325 132.55 143.192C118.261 146.859 105.736 154.922 96.5004 165.856C89.4947 162.118 81.4947 160 73 160C49.5223 160 29.824 176.181 24.4493 198H409.233Z" fill="#FF7C63"/>
+                    <path d="M650 123C650 84.3401 618.66 53 580 53C545.029 53 516.048 78.644 510.835 112.153C504.254 110.104 497.256 109 490 109C451.34 109 420 140.34 420 179C420 185.585 420.909 191.958 422.609 198H1260.94C1259.37 160.732 1228.65 131 1191 131C1183.48 131 1176.23 132.186 1169.44 134.382C1158.29 110.527 1134.07 94 1106 94C1075.7 94 1049.89 113.253 1040.15 140.193C1027.61 128.297 1010.65 121 992 121C986.455 121 981.06 121.645 975.887 122.863C968.244 92.4877 940.748 70 908 70C902.487 70 897.122 70.6374 891.976 71.8425C891.992 71.2303 892 70.6161 892 70C892 31.3401 860.66 0 822 0C783.34 0 752 31.3401 752 70C752 74.0998 752.352 78.1173 753.029 82.0238C730.748 94.9016 714.5 117.055 709.564 143.205C697.609 133.687 682.469 128 666 128C660.375 128 654.904 128.664 649.663 129.917C649.886 127.641 650 125.334 650 123Z" fill="#FF7C63"/>
+                </svg>
+            </div>
+        </section> -->
+
+        <section class="container position-relative">
+            <button class="position-absolute btn m-main-btn rounded-5 top-50 start-50 translate-middle"><div class="h-100">clique para inscrever agora</div></button>
+            <svg class="rounded-5" viewBox="0 0 1300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M120.988 0C113.174 10.4025 106.526 21.7304 101.237 33.79C88.3376 30.6593 74.8626 29 61 29C39.5011 29 18.9343 32.9908 0 40.272V300H1300V0H1183.93C1174.94 4.8087 1166.43 10.4019 1158.5 16.6881C1150.57 10.4019 1142.06 4.8087 1133.07 0H972.929C969.182 2.00455 965.518 4.14542 961.945 6.41599C959.717 7.83193 957.515 9.2983 955.342 10.8135C952.444 7.08194 949.394 3.47434 946.201 0H695.799C690.421 5.85192 685.448 12.0819 680.924 18.6455C678.614 16.7452 676.253 14.9046 673.843 13.1261C667.265 8.27193 660.325 3.88053 653.071 0H492.929C463.715 15.6273 439.599 39.5398 423.72 68.598C418.668 43.2449 407.978 19.9247 393.012 0H120.988Z" fill="#685D73"/>
+                <path d="M406.079 79.9019C386.033 71.5885 364.053 67 341 67C304.528 67 270.739 78.4852 243.052 98.0361C213.01 71.2666 173.404 55 130 55C77.8499 55 31.1843 78.4821 0 115.45V300H480.929H498.944C506.722 280.517 511 259.258 511 237C511 166.164 467.676 105.447 406.079 79.9019Z" fill="#CC143E"/>
+                <path d="M641.071 300H1300V114.275C1268.82 77.9854 1222.6 55 1171 55C1136.38 55 1104.17 65.351 1077.31 83.1273C1046.47 40.0624 996.01 12 939 12C904.11 12 871.675 22.5107 844.688 40.5384C825.564 33.0882 804.76 29 783 29C752.546 29 723.962 37.008 699.239 51.0332C647.743 80.2466 613 135.566 613 199C613 235.92 624.769 270.092 644.761 297.967C643.54 298.659 642.31 299.337 641.071 300Z" fill="#CC143E"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1300 300V162.709C1281.57 152.691 1260.45 147 1238 147C1182.45 147 1135.04 181.839 1116.43 230.858C1094.3 213.411 1066.37 203 1036 203C1035.75 203 1035.5 203.001 1035.26 203.002C1028.27 137.788 973.068 87 906 87C861.936 87 822.993 108.923 799.482 142.456C783.622 128.479 762.801 120 740 120C718.842 120 699.39 127.301 684.025 139.52C672.32 117.215 648.937 102 622 102C597.157 102 575.337 114.941 562.914 134.45C553.273 130.924 542.861 129 532 129C509.726 129 489.342 137.091 473.627 150.495C453.089 136.91 428.468 129 402 129C346.757 129 299.562 163.458 280.736 212.053C259.229 196.301 232.701 187 204 187C172.17 187 143.013 198.439 120.413 217.431C120.802 213.339 121 209.193 121 205C121 136.228 67.5986 79.929 0 75.3066V300H1300Z" fill="#8C233F"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M132.55 245.192C130.652 245.516 134.393 244.719 132.55 245.192Z" fill="#FF7C63"/>
+                <path d="M409.233 300C400.075 288.426 385.905 281 370 281C357.947 281 346.889 285.265 338.255 292.368C327.259 285.179 314.118 281 300 281C299.463 281 298.927 281.006 298.393 281.018C291.533 249.557 263.518 226 230 226C225.513 226 221.124 226.422 216.872 227.229C207.731 217.254 194.596 211 180 211C157.91 211 139.166 225.325 132.55 245.192C118.261 248.859 105.736 256.922 96.5004 267.856C89.4947 264.118 81.4947 262 73 262C49.5223 262 29.824 278.181 24.4493 300H409.233Z" fill="#FF7C63"/>
+                <path d="M650 225C650 186.34 618.66 155 580 155C545.029 155 516.048 180.644 510.835 214.153C504.254 212.104 497.256 211 490 211C451.34 211 420 242.34 420 281C420 287.585 420.909 293.958 422.609 300H1260.94C1259.37 262.732 1228.65 233 1191 233C1183.48 233 1176.23 234.186 1169.44 236.382C1158.29 212.527 1134.07 196 1106 196C1075.7 196 1049.89 215.253 1040.15 242.193C1027.61 230.297 1010.65 223 992 223C986.455 223 981.06 223.645 975.887 224.863C968.244 194.488 940.748 172 908 172C902.487 172 897.122 172.637 891.976 173.843C891.992 173.23 892 172.616 892 172C892 133.34 860.66 102 822 102C783.34 102 752 133.34 752 172C752 176.1 752.352 180.117 753.029 184.024C730.748 196.902 714.5 219.055 709.564 245.205C697.609 235.687 682.469 230 666 230C660.375 230 654.904 230.664 649.663 231.917C649.886 229.641 650 227.334 650 225Z" fill="#FF7C63"/>
+            </svg>
+        </section>
+
+        <section class="container">
+            <div class="row justify-content-center gap-4">
+                <div class="col-sm-4 m-dash-border w-25 p-2">
+                    <div class="m-card rounded-5 p-1">
+                        <img class="card-img-top" src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"/>
+                        <div class="card-body">
+                            <p class="card-text">aaaa aaaa aaaa aaaa<br>aaaa aaaa<br>aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-dash-border w-25 p-2">
+                    <div class="m-card rounded-5 p-1">
+                        <img class="card-img-top" src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"/>
+                        <div class="card-body">
+                            <p class="card-text">aaaa aaaa aaaa aaaa<br>aaaa aaaa<br>aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 m-dash-border w-25 p-2">
+                    <div class="m-card rounded-5 p-1">
+                        <img class="card-img-top" src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"/>
+                        <div class="card-body">
+                            <p class="card-text">aaaa aaaa aaaa aaaa<br>aaaa aaaa<br>aaaa aaaa aaaa aaaa aaaa aaaa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
