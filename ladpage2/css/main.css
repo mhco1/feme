@@ -4,7 +4,7 @@ body{
 }
 
 section{
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .m-color-p1{
@@ -13,6 +13,14 @@ section{
 
 .m-color-p2{
     background-color: rgb(var(--m-rgb-p2));
+}
+
+.m-sec{
+    transform: rotate(-1deg);
+}
+
+.m-sec > *{
+    transform: rotate(1deg);
 }
 
 .m-card{
@@ -29,4 +37,13 @@ section{
 .m-traco{
     width: 50vw;
     height: 20px;
+}
+
+.m-box{
+    min-height: 250px;
+    transform: rotate(1.5deg);
+}
+
+.m-box > *{
+    transform: rotate(-1.5deg);
 }
