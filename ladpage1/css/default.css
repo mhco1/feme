@@ -1,0 +1,32 @@
+:root{
+    --bs-body-line-height: 1;
+
+    --m-info:#f2ddb6info;
+    --m-rgb-f1: 242, 221, 182;
+
+    --m-info:#6bbae7;
+    --m-rgb-p1:        107, 186, 231;
+    --m-hsl-p1:        202, 72%;
+    --m-info:#e7986a;
+    --m-rgb-p1-comp:   231, 152, 107;
+    --m-hsl-p1-comp:   22,  72%;
+    --m-info:#f36dd8;
+    --m-rgb-p1-anlg-1: 243, 111, 217;
+    --m-hsl-p1-anlg-1: 312, 85%;
+    --m-info:#f3886d;
+    --m-rgb-p1-anlg-2: 243, 137, 111;
+    --m-hsl-p1-anlg-2: 12,  85%;
+    
+    --m-info:#f36f97;
+    --m-rgb-p2:        243, 111, 151;
+    --m-hsl-p2:        342, 85%;
+    --m-info:#6ff3cb;
+    --m-rgb-p2-comp:   111, 243, 203;
+    --m-hsl-p2-comp:   162, 85%;
+    --m-info:#6be7d6;
+    --m-rgb-p2-anlg-1: 107, 231, 214;
+    --m-hsl-p2-anlg-1: 172, 72%;
+    --m-info:#6b7ce7;
+    --m-rgb-p2-anlg-2: 107, 124, 231;
+    --m-hsl-p2-anlg-2: 232, 72%;
+}
