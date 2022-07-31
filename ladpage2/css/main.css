@@ -23,6 +23,36 @@ section{
     transform: rotate(1deg);
 }
 
+.m-box{
+    min-height: 250px;
+    transform: rotate(1.5deg);
+}
+
+.m-box > *{
+    transform: rotate(-1.5deg);
+}
+
+.m-video-border{
+    max-width: 600px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23000' stroke-width='9' stroke-dasharray='27.5' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+
+/* --- */
+
+.m-segundou-back img{
+    max-height: 100vh;
+}
+
+.m-segundou-back .m-1{
+    height: 100vh;
+    background: url(../img/segundou-back-top.svg) no-repeat;
+}
+
+.m-segundou-back .m-2{
+    height: 100vh;
+    background: url(../img/segundou-back-bottom.svg) no-repeat;
+}
+
 .m-card{
     --m-rad: 40px;
 
@@ -37,13 +67,4 @@ section{
 .m-traco{
     width: 50vw;
     height: 20px;
-}
-
-.m-box{
-    min-height: 250px;
-    transform: rotate(1.5deg);
-}
-
-.m-box > *{
-    transform: rotate(-1.5deg);
 }

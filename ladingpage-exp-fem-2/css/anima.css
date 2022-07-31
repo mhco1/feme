@@ -1,0 +1,87 @@
+@keyframes m-anm-title {
+    0% {
+        transform: translate(-40px, 0px);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate(20px, 0px);
+        opacity: 1;
+        animation-timing-function: linear;
+    }
+}
+
+.m-anm-title {
+    animation: 1.8s linear 0s 1 normal forwards running m-anm-title;
+}
+
+@keyframes m-anm-effect-title-1 {
+    0% {
+        transform: translate(-50%, -30%);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        animation-timing-function: linear;
+    }
+}
+
+.m-anm-effect-title-1 {
+    animation: 1.8s linear 0s 1 normal forwards running m-anm-effect-title-1;
+}
+
+@keyframes m-anm-effect-title-2 {
+    0% {
+        transform: translate(-50%, -95%);
+        opacity: 0;
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: translate(-50%, -80%);
+        opacity: 1;
+        animation-timing-function: ease-in-out;
+    }
+
+    100% {
+        transform: translate(-50%, -65%);
+        opacity: 1;
+        animation-timing-function: linear;
+    }
+}
+
+.m-anm-effect-title-2 {
+    animation: 1.8s linear 0s 1 normal forwards running m-anm-effect-title-2;
+}
+
+@keyframes m-anm-alter-sec {
+    0% {
+        opacity: 1;
+        animation-timing-function: linear;
+    }
+
+    100% {
+        opacity: 0;
+        animation-timing-function: linear;
+    }
+}
+
+.m-anm-alter-sec {
+    animation: 1.8s linear 2s 1 normal forwards running m-anm-alter-sec;
+}

@@ -1,0 +1,118 @@
+:root{
+    --m-info: #075E54;
+    --m-rgb-wsp-1: 7, 94, 84;
+    --m-hsl-wsp-1: 173, 86%;
+
+    --m-info: #25D366;
+    --m-rgb-wsp-2: 37, 212, 102;
+    --m-hsl-wsp-2: 142, 70%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body, .m-back{
+    background-size: cover;
+}
+
+.m-back .container{
+    min-height: 100vh;
+}
+
+/* .m-back .container > div{
+    height: inherit;
+} */
+
+@media (max-width: 576px) {
+    body {
+        background-image: url(../img/fundo/sm/2.svg);
+    }
+
+    .m-back:nth-child(2n) {
+        background-image: url(../img/fundo/sm/1.svg);
+    }
+}
+
+@media (min-width: 576px){
+    body {
+        background-image: url(../img/fundo/sm/2.svg);
+    }
+
+    .m-back:nth-child(2n) {
+        background-image: url(../img/fundo/sm/1.svg);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(../img/fundo/md/2.svg);
+    }
+
+    .m-back:nth-child(2n) {
+        background-image: url(../img/fundo/md/1.svg);
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url(../img/fundo/lg/2.svg);
+    }
+
+    .m-back:nth-child(2n) {
+        background-image: url(../img/fundo/lg/1.svg);
+    }
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
+}
+
+.m-color-wsp-1{
+    background-color: rgb(var(--m-rgb-wsp-1));
+}
+
+.m-color-wsp-2{
+    background-color: rgb(var(--m-rgb-wsp-2));
+}
+
+.m-rot-1{
+    transform: rotate(1deg);
+}
+
+.m-rot-1 > *{
+    transform: rotate(-1deg);
+}
+
+.m-rot-2{
+    transform: rotate(-1deg);
+}
+
+.m-rot-2 > *{
+    transform: rotate(1deg);
+}
+
+.m-card{
+    --m-rad: 40px;
+
+    max-width: 260px;
+    border-radius: 0px var(--m-rad) 0px var(--m-rad);
+}
+
+.m-card .card-img-top{
+    border-radius: 0px var(--m-rad) 0px 0px;
+}
+
+.m-border{
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23000' stroke-width='9' stroke-dasharray='27.5' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+
+.m-dep-fd{
+    background-image: url(../img/dep-fd.png);
+    background-size: 800px;
+}

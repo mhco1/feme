@@ -1,0 +1,20 @@
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(var(--m-rgb-f1));
+}
+
+section{
+    margin-bottom: 80px;
+}
+
+.m-color-p1{
+    background-color: rgb(var(--m-rgb-p1));
+}
+
+.m-color-p2{
+    background-color: rgb(var(--m-rgb-p2));
+}
